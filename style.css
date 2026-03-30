@@ -239,7 +239,7 @@ footer {
         left: auto !important;
         top: 0;
         height: 100vh; /* Full height looks better for side-sliders */
-        width: 50%; /* Half screen width */
+        width: 25%; /* Half screen width */
         
         /* 50% Transparency + Blur Effect */
         background: rgba(255, 255, 255, 0.5) !important;
