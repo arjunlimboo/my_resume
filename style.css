@@ -22,6 +22,7 @@ header {
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
+    height: 60px;
 }
 
 nav {
@@ -229,24 +230,24 @@ footer {
 @media (max-width: 768px) {
     .hamburger { 
         display: flex; 
-        z-index: 1001; /* Keeps the burger icon on top of the menu */
+        z-index: 1001; 
     }
 
     .nav-links {
         position: fixed;
-        right: -25%; 
+        right: -25% !important; 
         
-        /* THE CHANGE: Start the menu below the header height */
+        /* FIX: Start exactly at the bottom of the 60px header */
         top: 60px; 
         
-        /* Adjust height to fill the rest of the screen */
+        /* FIX: Fill the rest of the screen height */
         height: calc(100vh - 60px); 
         
-        width: 25%;
+        width: 25% !important;
         min-width: 120px;
         
-        /* Add some padding so the first link isn't touching the top */
-        padding-top: 40px; 
+        /* Adjust padding so "Home" has a nice gap from the top */
+        padding-top: 30px; 
         
         background: rgba(255, 255, 255, 0.8) !important;
         backdrop-filter: blur(10px);
@@ -255,18 +256,24 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start; 
-        gap: 2rem;
+        gap: 1.5rem; 
         
         transition: 0.4s ease-in-out;
         box-shadow: -5px 5px 15px rgba(0,0,0,0.1);
         z-index: 1000;
     }
 
-    /* When JS toggles 'active', slide to the right edge */
     .nav-links.active {
         right: 0 !important;
     }
 
+    /* Optional: Ensure the links are readable in the narrow 25% column */
+    .nav-links a {
+        font-size: 0.9rem;
+        display: block;
+        width: 100%;
+    }
+}
     .nav-links li {
         width: 100%;
         text-align: center;
@@ -275,9 +282,6 @@ footer {
     .about-content { 
         grid-template-columns: 1fr; 
     }
-}
-
-
 ul{
     text-align: center;
 }
