@@ -55,7 +55,7 @@ Welcome to my professional portfolio. I am a Computer Engineer passionate about 
 
 ## 📬 Get In Touch
 * **Email:** arjunyakthumba9@gmail.com
-* **LinkedIn:** linkedin.com/in/arjun-limboo-57a4b8287
+* **LinkedIn:** www.linkedin.com/in/arjun-limboo-57a4b8287
 * **Location:** Birtamod, Nepal
 
 ---
