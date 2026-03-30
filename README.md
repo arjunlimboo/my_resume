@@ -20,7 +20,6 @@ Welcome to my professional portfolio. I am a Computer Engineer passionate about 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### **Mobile & Tools**
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
@@ -28,17 +27,23 @@ Welcome to my professional portfolio. I am a Computer Engineer passionate about 
 
 ## 📂 Key Projects
 
-### 🏟️ Futsal Management System
-* **Tech Stack:** MERN (MongoDB, Express, React, Node.js)
-* **Description:** A complete web solution for managing futsal bookings, schedules, and player registrations.
-* **Status:** In Development
+### 🚗 Language Translation Using NMT
+* **Description:** Translate a Nepali to Limbu and vice versa.
+* **Status** Completed
+
+### 🚗 Smart Street Lighting System Using IOT
+* **Description:** Can be control from any place of the globe and energy efficient by switching on when vehicle detected.
+* **Status** Completed
 
 ### ⌨️ Limbu System Keyboard (Android)
 * **Tech Stack:** Flutter / Dart
 * **Description:** Developing a custom system-wide keyboard for the Limbu language to preserve and promote local culture through technology.
+* **Status** Completed
 
-### 🚗 Machine Learning Model Analysis
-* **Description:** Research and implementation of ML models, focusing on performance metrics and optimization.
+### 🏟️ Virtual Reality
+* **Unity Engine**  Software
+* **Description:** The Virtual Reality of college and some tourist place.
+* **Status:** Completed
 
 ---
 
@@ -49,8 +54,8 @@ Welcome to my professional portfolio. I am a Computer Engineer passionate about 
 ---
 
 ## 📬 Get In Touch
-* **Email:** arjun.kerung@manaram.group
-* **LinkedIn:** [Your LinkedIn Profile Link]
+* **Email:** arjunyakthumba9@gmail.com
+* **LinkedIn:** linkedin.com/in/arjun-limboo-57a4b8287
 * **Location:** Birtamod, Nepal
 
 ---
